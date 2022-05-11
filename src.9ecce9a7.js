@@ -9,4 +9,4 @@ function o(){let o=$("back-to-top");$(window).on("scroll",()=>{$(this).scrollTop
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/mobile-menu"),require("./js/modal-form"),require("./js/scroll-up"),require("./js/open-close");
 },{"./sass/main.scss":"clu1","./js/mobile-menu":"sByI","./js/modal-form":"n8cQ","./js/scroll-up":"GVd3","./js/open-close":"sByI"}]},{},["Focm"], null)
-//# sourceMappingURL=/ice-test/src.0e896654.js.map
+//# sourceMappingURL=/ice-test/src.9ecce9a7.js.map
