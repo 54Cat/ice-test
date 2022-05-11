@@ -1,0 +1,29 @@
+.back-to-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 43px;
+    height: 43px;
+    border: transparent;
+    border-radius: 50%;
+    background-color: var(--primary-fill-icon);
+    transition: background-color var(--animation-function);
+    cursor: pointer;
+}
+
+.back-to-top:hover,
+.back-to-top:focus {
+    background-color: var(--light-btn-bg);
+}
+.scrollup__icon {
+    fill: var(--primary-bg);
+    transition: fill var(--animation-function);
+}
+.scrollup__icon:hover,
+.scrollup__icon:focus {
+    fill:  var(--hover-btn-bg);
+}

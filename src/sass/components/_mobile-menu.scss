@@ -1,0 +1,132 @@
+.menu-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    max-width: 254px;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #E17992;
+    padding: 60px 21px;
+    z-index: 100;
+
+
+    @include mq(desktop) {
+        display: none;
+    }
+}
+
+.menu-mobile.is-open {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+
+
+
+.mobile-menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 186px;
+    height: 44px;
+    cursor: pointer;
+    background: var(--primary-bg);
+    border-radius: 22px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
+    color: var(--hover-fill-icon);
+
+    border: none;
+    transition: color 250ms cubic-bezier(.4, 0, .2, 1),
+        background-color 250ms cubic-bezier(.4, 0, .2, 1);
+
+    &::after {
+        content: "";
+        width: 6px;
+        height: 10px;
+        display: inline-block;
+        background-image: url(/images/header/vector.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: #ECEBEB;
+        color: var(--accent-btn-bg);
+    }
+
+
+
+}
+
+.close-mobile-btn {
+    position: absolute;
+    background-color: #E17992;
+    border: none;
+    justify-content: center;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+
+}
+
+
+
+
+.close-btn-icon {
+
+    fill: var(--primary-bg);
+
+    &:hover,
+    &:focus {
+        fill: var(--accent-btn-bg)
+    }
+}
+
+
+
+.arrow-btn {
+    fill: var(--accent-btn-bg);
+
+}
+
+
+
+
+.mobile-menu__item {
+    padding-top: 10px;
+    padding-bottom: 13px;
+    border-top: 1px solid #E18298;
+    border-bottom: 1px solid #E18298;
+
+
+}
+
+.mobile-menu__link {
+
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.28;
+    align-items: center;
+    color: var(--light-txt);
+    transition: color 250ms cubic-bezier(.4, 0, .2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-btn-bg);
+    }
+
+}

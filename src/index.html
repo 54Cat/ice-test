@@ -4,8 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IceCream</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
     <link rel="icon" href="/images/header/logo-cut.png" type="image/png" />
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,9 +31,11 @@
   </head>
   <body>
     <include src="./partials/header.html"></include>
+    <include src="./partials/mobile-menu.html"></include>
 
     <main>
       <include src="./partials/hero.html"></include>
+      
       <include src="./partials/products.html"></include>
       <include src="./partials/about.html"></include>
       <include src="./partials/advantages.html"></include>
@@ -41,11 +45,13 @@
 
       <include src="./partials/modals/modal-menu.html"></include>
       <include src="./partials/modals/backdrop.html"></include>
+      <include src="./partials/modals/scroll-up.html"></include>
     </main>
 
     <include src="./partials/footer.html"></include>
 
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <script src="./index.js"></script>
+   
   </body>
 </html>
