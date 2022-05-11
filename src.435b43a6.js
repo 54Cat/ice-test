@@ -13,4 +13,4 @@ function o(){let o=$("back-to-top");$(window).on("scroll",()=>{$(this).scrollTop
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/slider"),require("./js/contacts-modal"),require("./js/mobile-menu"),require("./js/modal-form"),require("./js/scroll-up"),require("./js/open-close");
 },{"./sass/main.scss":"clu1","./js/slider":"wzuc","./js/contacts-modal":"ms7G","./js/mobile-menu":"sByI","./js/modal-form":"n8cQ","./js/scroll-up":"GVd3","./js/open-close":"sByI"}]},{},["Focm"], null)
-//# sourceMappingURL=/ice-test/src.8b9fe4e2.js.map
+//# sourceMappingURL=/ice-test/src.435b43a6.js.map
