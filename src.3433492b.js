@@ -17,4 +17,4 @@ function o(){let o=$("back-to-top");$(window).on("scroll",()=>{$(this).scrollTop
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/slider"),require("./js/contacts-modal"),require("./js/about-modal"),require("./js/mobile-menu"),require("./js/modal-form"),require("./js/scroll-up"),require("./js/open-close");
 },{"./sass/main.scss":"clu1","./js/slider":"wzuc","./js/contacts-modal":"ms7G","./js/about-modal":"Swjd","./js/mobile-menu":"sByI","./js/modal-form":"n8cQ","./js/scroll-up":"GVd3","./js/open-close":"LWE5"}]},{},["Focm"], null)
-//# sourceMappingURL=/ice-test/src.553158a5.js.map
+//# sourceMappingURL=/ice-test/src.3433492b.js.map
