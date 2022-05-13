@@ -11,7 +11,7 @@ const e=document.getElementById("btn-prev"),t=document.getElementById("btn-next"
 },{}],"sByI":[function(require,module,exports) {
 (()=>{const e=document.querySelector("[data-menu-button]"),t=document.querySelector("[data-menu]"),c=document.querySelector("[data-menu-close]");e.addEventListener("click",()=>{t.classList.toggle("is-open")}),c.addEventListener("click",()=>{t.classList.toggle("is-open")}),t.addEventListener("click",()=>{t.classList.remove("is-open")})})();
 },{}],"n8cQ":[function(require,module,exports) {
-(()=>{const o={openModalBtn:document.querySelector("[data-backdrop-form]"),closeModalBtn:document.querySelector("[data-close-form]"),backdrop:document.querySelector("[data-backdrop-form]")};function e(){document.body.classList.toggle("modal-open"),o.backdrop.classList.toggle("is-hidden")}o.openModalBtn.addEventListener("click",e),o.closeModalBtn.addEventListener("click",e),o.backdrop.addEventListener("click",function(){console.log("Это клик в бекдроп")})})();
+(()=>{const o={openModalBtn:document.querySelector("[data-open-form]"),closeModalBtn:document.querySelector("[data-close-form]"),backdrop:document.querySelector("[data-backdrop-form]")};function e(){document.body.classList.toggle("modal-open"),o.backdrop.classList.toggle("is-hidden")}o.openModalBtn.addEventListener("click",e),o.closeModalBtn.addEventListener("click",e),o.backdrop.addEventListener("click",function(){console.log("Это клик в бекдроп")})})();
 },{}],"GVd3":[function(require,module,exports) {
 function o(){let o=$("back-to-top");$(window).on("scroll",()=>{$(this).scrollTop()>=50?o.fadeIn():o.fadeOut()}),o.on("click",o=>{o.preventDefault(),$($html).aninate({scrollTop:0},500)})}o();
 },{}],"LWE5":[function(require,module,exports) {
@@ -19,4 +19,4 @@ function o(){let o=$("back-to-top");$(window).on("scroll",()=>{$(this).scrollTop
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/slider"),require("./js/buy-now"),require("./js/contacts-modal"),require("./js/about-modal"),require("./js/mobile-menu"),require("./js/modal-form"),require("./js/scroll-up"),require("./js/open-close");
 },{"./sass/main.scss":"clu1","./js/slider":"wzuc","./js/buy-now":"BGFz","./js/contacts-modal":"ms7G","./js/about-modal":"Swjd","./js/mobile-menu":"sByI","./js/modal-form":"n8cQ","./js/scroll-up":"GVd3","./js/open-close":"LWE5"}]},{},["Focm"], null)
-//# sourceMappingURL=/ice-test/src.7613472f.js.map
+//# sourceMappingURL=/ice-test/src.e4a6fff3.js.map
